@@ -36,7 +36,7 @@ function random() {
 }
 
 function random1() {
-    die111 = Math.floor(Math.random()* 6) + 1
+    die111 = Math.floor(Math.random()* 9)
     die222 = Math.floor(Math.random()* 9) 
     die1111.textContent = die11
     die2222.textContent = die22
