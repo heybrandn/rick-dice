@@ -1,28 +1,65 @@
 <html>
     <head>
-        <title>Dice Roller</title>
+        <title>Rick's Dice Roller</title>
         <link rel="stylesheet" href="styles.css">
+		<link rel="shortcut icon" type="image/x-icon" href="dice.png" />
     </head>
     <body>
-        <div class="headers">
-            <h1 class="text">rick's dice</h1>
-        </div>
+	<div class="headers">
+        <h1 class="text">Rick's Dice Roller</h1>
+    </div>
+	<div class="cards">
+		<h1 class="text" id="cards">Dice Football</h1>
+	</div>
+	<div class="football">
+		<div class="left">
+			<div class="numbers">
+				<h1 class="text cs" id="die11">_</h1>
+				<h1 class="text cs" id="die22">_</h1>
+			</div>
+			<div class="btnActions">
+				<button class="text btns" onclick="roll1()">Roll</button>
+				<button class="text btns" onclick="reset1()">Reset</h1>
+			</div>
+			<div class="words">
+				<h1 class="text headers" id="words"></h1>
+				<h1 class="text headers" id="words2"></h1>
+			</div>
+		</div>
+		<div class="right">
+			<div class="numbers">
+				<h1 class="text cs" id="die1">_</h1>
+				<h1 class="text cs" id="die2">_</h1>
+				<h1 class="text cs" id="die3">_</h1>
+			</div>
+			<div class="btnActions">
+				<button class="text btns" onclick="roll()">Roll</button>
+				<button class="text btns" onclick="reset()">Reset</h1>
+			</div>
+			<div class="words">
+				<h1 class="text headers" id="words"></h1>
+				<h1 class="text headers" id="words2"></h1>
+			</div>
+		</div>
+	</div>
+	<div class="baseball">
         <div class="cards">
-            <h1 class="text" id="cards">Dice: </h1>
+            <h1 class="text" id="cards2">Pennant Baseball</h1>
         </div>
         <div class="numbers">
-            <h1 class="text cs" id="die1">_</h1>
-            <h1 class="text cs" id="die2">_</h1>
-            <h1 class="text cs" id="die3">_</h1>
+            <h1 class="text cs" id="die4">_</h1>
+            <h1 class="text cs" id="die5">_</h1>
+            <h1 class="text cs" id="die6">_</h1>
         </div>
         <div class="btnActions">
-            <button class="text btns" onclick="roll()">Roll</button>
-            <button class="text btns" onclick="reset()">Reset</h1>
+            <button class="text btns" onclick="roll2()">Roll</button>
+            <button class="text btns" onclick="reset2()">Reset</h1>
         </div>
         <div class="words">
-            <h1 class="text headers" id="words"></h1>
-            <h1 class="text headers" id="words2"></h1>
+            <h1 class="text headers" id="words3"></h1>
+            <h1 class="text headers" id="words4"></h1>
         </div>
+	</div>
     </body>
     <script src="script.js"></script>
 </html>
