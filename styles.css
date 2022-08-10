@@ -80,9 +80,9 @@ body {
 }
 
 #die22 {
-    border: solid 3px black;
+    border: solid 3px blue;
     border-radius: 5px;
-    color: black;
+    color: blue;
     padding: 6px;
 }
 
@@ -118,8 +118,4 @@ body {
 	margin-bottom: -50px;
 	display: flex;
 	justify-content: space-around;
-}
-
-.left {
-	margin-right: -1000px;
 }
