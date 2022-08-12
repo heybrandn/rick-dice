@@ -7,4 +7,4 @@ This is a dice roller for sport games
 
 ### HTML, CSS, JS
 
-#### Live Website at https://heybrandn.github.io/rick-dice
+#### Live Website at https://ricksdice.xyz
